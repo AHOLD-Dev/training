@@ -1,0 +1,7 @@
+{
+	"name": "Training-IR-Selfhostedv1",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "We are testing the Self Hosted IR with Azure SQL VM"
+	}
+}
