@@ -1,0 +1,25 @@
+{
+	"name": "dev-training-adf",
+	"properties": {
+		"encryption": {
+			"identity": {
+				"userAssignedIdentity": "/subscriptions/604b9dc0-ebd9-4101-9388-3f81c8729649/resourcegroups/dev/providers/Microsoft.ManagedIdentity/userAssignedIdentities/dev-User-managed-identity"
+			},
+			"VaultBaseUrl": "https://training-dev-keyvault.vault.azure.net",
+			"KeyName": "dev-key",
+			"KeyVersion": "61466ce344074ed2be5655cf227bf6e8"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "a21c78a4-4ee8-4acc-a6dc-3ddb2bb3ed34",
+		"tenantId": "7325556e-72ad-4d14-ae30-4da717485b30",
+		"userAssignedIdentities": {
+			"/subscriptions/604b9dc0-ebd9-4101-9388-3f81c8729649/resourcegroups/dev/providers/Microsoft.ManagedIdentity/userAssignedIdentities/dev-User-managed-identity": {
+				"clientId": "d0ba52bf-122c-4a1d-9bec-2883a1a8c5e7",
+				"principalId": "56c9a5e6-0667-4c7c-aeb2-ab72b16a0ea8"
+			}
+		}
+	}
+}
