@@ -132,7 +132,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SqlServerTable1",
+						"referenceName": "SourceDataset_fp2",
 						"type": "DatasetReference"
 					}
 				],
